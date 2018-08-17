@@ -19,7 +19,6 @@ class WeightViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    
     //Convert grams to other weights
     @IBAction func txtGramValueChange(_ sender: Any) {
         let weightInGrams:Weight = Weight(Double(self.txtGram.text!) ?? 0)
@@ -56,7 +55,6 @@ class WeightViewController: UIViewController {
         self.txtPound.text = String(weightInOunces.convertOunceToPounds())
     }
     
-    
     //Call clearFields function in each and every text field in the begin
     @IBAction func txtGramValueClear(_ sender: Any) {
         clearFields()
@@ -74,8 +72,7 @@ class WeightViewController: UIViewController {
         clearFields()
     }
     
-    
-    //function for clear all text fields
+    //Function for clear all text fields
     func clearFields(){
         txtGram.text = ""
         txtKilogram.text = ""

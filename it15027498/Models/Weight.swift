@@ -15,7 +15,7 @@ class Weight{
         self.weight = weight
     }
     
-    //functions for convert gram to other weights
+    //Functions for convert gram to other weights
     func convertGramToKilogram() -> Double {
         return weight*0.001
     }
@@ -29,7 +29,7 @@ class Weight{
     }
     
     
-    //functions for convert kilogram to other weights
+    //Functions for convert kilogram to other weights
     func convertKilogramToGram() -> Double {
         return weight*1000
     }
@@ -43,7 +43,7 @@ class Weight{
     }
     
     
-    //functions for convert pounds to other weights
+    //Functions for convert pounds to other weights
     func convertPoundsToGram() -> Double {
         return weight*453.592
     }
@@ -57,7 +57,7 @@ class Weight{
     }
     
     
-    //functions for convert ounce to other weights
+    //Functions for convert ounce to other weights
     func convertOunceToGram() -> Double {
         return weight*28.3495
     }

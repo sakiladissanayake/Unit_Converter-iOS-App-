@@ -16,7 +16,7 @@ class Weight{
     }
     
     //functions for convert gram to other weights
-    func convertGramTokilogram() -> Double {
+    func convertGramToKilogram() -> Double {
         return weight*0.001
     }
     

@@ -21,7 +21,7 @@ class DistanceViewController: UIViewController {
 
     //Convert metre to other distance
     @IBAction func txtMetreValueChange(_ sender: Any) {
-        let distanceInMetre:Distance = Distance(Double(txtMile.text!) ?? 0)
+        let distanceInMetre:Distance = Distance(Double(txtMetre.text!) ?? 0)
         
         txtFoot.text = String(distanceInMetre.convertMetreToFoot())
         txtYard.text = String(distanceInMetre.convertMetreToYard())
@@ -43,7 +43,7 @@ class DistanceViewController: UIViewController {
     @IBAction func txtYardValueChange(_ sender: Any) {
         let distanceInYard:Distance = Distance(Double(txtYard.text!) ?? 0)
         
-        txtMetre.text = String(distanceInYard.convertMileToMetre())
+        txtMetre.text = String(distanceInYard.convertYardToMetre())
         txtFoot.text = String(distanceInYard.convertYardToFoot())
         txtKilometre.text = String(distanceInYard.convertYardToKilometre())
         txtMile.text = String(distanceInYard.convertYardToMile())

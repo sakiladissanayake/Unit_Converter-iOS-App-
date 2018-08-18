@@ -224,6 +224,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="txtMetreValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="YUs-1h-JDj"/>
+                                    <action selector="txtMetreValueClear:" destination="sYb-1p-u1H" eventType="editingDidBegin" id="Wu1-Ui-TQJ"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9gk-UO-RIH">
@@ -234,6 +235,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="txtFootValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="gi2-RJ-kXo"/>
+                                    <action selector="txtFootValueClear:" destination="sYb-1p-u1H" eventType="editingDidBegin" id="38g-Na-nCH"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aFs-Xx-fdz">
@@ -244,6 +246,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="txtYardValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="zqN-SL-BuB"/>
+                                    <action selector="txtYardValueClear:" destination="sYb-1p-u1H" eventType="editingDidBegin" id="hOw-MK-MYL"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cqe-4U-az6">
@@ -254,6 +257,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="txtKilometreValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="LZ3-S2-fPm"/>
+                                    <action selector="txtKilometreValueClear:" destination="sYb-1p-u1H" eventType="editingDidBegin" id="yoJ-Wg-bEu"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbd-Tb-Iwk">
@@ -271,6 +275,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                                 <connections>
                                     <action selector="txtMileValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="pjM-Qc-DO4"/>
+                                    <action selector="txtMileValueClear:" destination="sYb-1p-u1H" eventType="editingDidBegin" id="ZLE-PA-tmH"/>
                                 </connections>
                             </textField>
                         </subviews>

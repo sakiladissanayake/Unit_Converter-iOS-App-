@@ -73,7 +73,7 @@ class WeightViewController: UIViewController {
     }
     
     //Function for clear all text fields
-    func clearFields(){
+    func clearFields() {
         txtGram.text = ""
         txtKilogram.text = ""
         txtPound.text = ""

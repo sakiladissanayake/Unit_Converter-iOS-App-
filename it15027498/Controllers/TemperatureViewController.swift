@@ -56,7 +56,7 @@ class TemperatureViewController: UIViewController {
     }
  
     //Function for clear all text fields
-    func clearFields(){
+    func clearFields() {
         txtCelsius.text = ""
         txtFahrenheit.text = ""
         txtKelvin.text = ""

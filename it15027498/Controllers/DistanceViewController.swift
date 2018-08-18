@@ -68,4 +68,34 @@ class DistanceViewController: UIViewController {
         txtYard.text = String(distanceInMile.convertMileToYard())
         txtKilometre.text = String(distanceInMile.convertMileToKilometre())
     }
+    
+    //Call clearFields function in each and every text field in the begin
+    @IBAction func txtMetreValueClear(_ sender: Any) {
+        clearFields()
+    }
+    
+    @IBAction func txtFootValueClear(_ sender: Any) {
+        clearFields()
+    }
+    
+    @IBAction func txtYardValueClear(_ sender: Any) {
+        clearFields()
+    }
+    
+    @IBAction func txtKilometreValueClear(_ sender: Any) {
+        clearFields()
+    }
+    
+    @IBAction func txtMileValueClear(_ sender: Any) {
+        clearFields()
+    }
+    
+    //Function for clear all text fields
+    func clearFields() {
+        txtMetre.text = ""
+        txtFoot.text = ""
+        txtYard.text = ""
+        txtKilometre.text = ""
+        txtMile.text = ""
+    }
 }

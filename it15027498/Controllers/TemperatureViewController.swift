@@ -55,6 +55,11 @@ class TemperatureViewController: UIViewController {
         clearFields()
     }
  
+    //Hide the keypad
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
     //Function for clear all text fields
     func clearFields() {
         txtCelsius.text = ""

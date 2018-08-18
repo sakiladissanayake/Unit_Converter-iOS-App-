@@ -84,19 +84,19 @@ class Distance {
     }
     
     //Functions for convert mile to other distance
-    func convrtMileToMetre() -> Double {
+    func convertMileToMetre() -> Double {
         return distance * 1609.34
     }
     
-    func convrtMileToFoot() -> Double {
+    func convertMileToFoot() -> Double {
         return distance * 5280
     }
     
-    func convrtMileToYard() -> Double {
+    func convertMileToYard() -> Double {
         return distance * 1760
     }
     
-    func convrtMileToKilometre() -> Double {
+    func convertMileToKilometre() -> Double {
         return distance * 1.60934
     }
 }

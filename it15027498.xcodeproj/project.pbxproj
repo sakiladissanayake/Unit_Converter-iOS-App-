@@ -17,6 +17,7 @@
 		924343C721270FA800072145 /* Speed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924343C621270FA800072145 /* Speed.swift */; };
 		924343C92127142C00072145 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924343C82127142C00072145 /* WeightViewController.swift */; };
 		924343CB212729A000072145 /* TemperatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924343CA212729A000072145 /* TemperatureViewController.swift */; };
+		92B403C5212861F40034C006 /* DistanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B403C4212861F40034C006 /* DistanceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		924343C621270FA800072145 /* Speed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Speed.swift; sourceTree = "<group>"; };
 		924343C82127142C00072145 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
 		924343CA212729A000072145 /* TemperatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureViewController.swift; sourceTree = "<group>"; };
+		92B403C4212861F40034C006 /* DistanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				924343C82127142C00072145 /* WeightViewController.swift */,
 				924343CA212729A000072145 /* TemperatureViewController.swift */,
+				92B403C4212861F40034C006 /* DistanceViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				924343C521270F9900072145 /* Distance.swift in Sources */,
+				92B403C5212861F40034C006 /* DistanceViewController.swift in Sources */,
 				924343AB2127057200072145 /* AppDelegate.swift in Sources */,
 				924343C92127142C00072145 /* WeightViewController.swift in Sources */,
 				924343C721270FA800072145 /* Speed.swift in Sources */,

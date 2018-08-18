@@ -183,7 +183,7 @@
         <!--Distance-->
         <scene sceneID="rsT-9n-RLG">
             <objects>
-                <viewController id="sYb-1p-u1H" sceneMemberID="viewController">
+                <viewController id="sYb-1p-u1H" customClass="DistanceViewController" customModule="it15027498" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LCd-5N-DGj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -222,6 +222,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="txtMetreValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="YUs-1h-JDj"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9gk-UO-RIH">
                                 <rect key="frame" x="157" y="181" width="198" height="30"/>
@@ -229,6 +232,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="txtFootValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="gi2-RJ-kXo"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aFs-Xx-fdz">
                                 <rect key="frame" x="157" y="229" width="198" height="30"/>
@@ -236,6 +242,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="txtYardValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="zqN-SL-BuB"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cqe-4U-az6">
                                 <rect key="frame" x="157" y="277" width="198" height="30"/>
@@ -243,6 +252,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="txtKilometreValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="LZ3-S2-fPm"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mile" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbd-Tb-Iwk">
                                 <rect key="frame" x="16" y="334" width="53" height="21"/>
@@ -257,12 +269,22 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="txtMileValueChange:" destination="sYb-1p-u1H" eventType="editingChanged" id="pjM-Qc-DO4"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XpQ-jh-Web"/>
                     </view>
                     <navigationItem key="navigationItem" title="Distance" id="CfM-wD-6RO"/>
+                    <connections>
+                        <outlet property="txtFoot" destination="9gk-UO-RIH" id="EJf-sO-oAZ"/>
+                        <outlet property="txtKilometre" destination="Cqe-4U-az6" id="Mwj-7v-NRh"/>
+                        <outlet property="txtMetre" destination="hO0-Js-5Ja" id="OvG-94-6j5"/>
+                        <outlet property="txtMile" destination="lw2-KT-zVS" id="WFY-XD-r90"/>
+                        <outlet property="txtYard" destination="aFs-Xx-fdz" id="EbG-ab-6bQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HXK-8z-tNH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
